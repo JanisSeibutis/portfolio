@@ -18,12 +18,11 @@ const Hero: React.FC = () => {
         <p>Currently i am a student at Medieinstitutet in Stockholm, Sweden</p>
         <a 
           href="/portfolio/Janis_Seibutis_CV.pdf" 
-          download
           className="cv-button"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Download CV
+          View CV
         </a>
       </div>
     </section>
