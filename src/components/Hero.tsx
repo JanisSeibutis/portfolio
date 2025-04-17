@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
 
         <div className="profile-image-container">
           <img 
-            src="/images/profile.jpeg" 
+            src="/portfolio/images/profile.jpeg" 
             alt="Profile" 
             className="profile-image"
           />
