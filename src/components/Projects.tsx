@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       title: 'Donut Shop',
-      description: 'This is a fictional webshop selling donuts, built as a school project with specific functional requirements. Users can browse and select products to add to their shopping cart. From the cart, users can proceed to checkout where they\'ll find an order summary and a form for order and user details. The site is built with vanilla JavaScript and some simple helper tools, with extra attention given to accessibility aspects.',
+      description: 'This is a fictional webshop selling donuts, built as a school project with specific functional requirements. Users can browse and select products to add to their shopping cart. From the cart, users can proceed to checkout where they\'ll find an order summary and a form for order and user details. The site is built with vanilla JavaScript and some simple helper tools, with extra attention given to accessibility aspects and form validation with regex.',
       image: '/portfolio/images/gottfrids-main-page.jpg',
       demoLink: 'https://janisseibutis.github.io/Gottfrids-Munkar-webbshop/',
       codeLink: 'https://github.com/JanisSeibutis/Gottfrids-Munkar-webbshop?tab=readme-ov-file'
