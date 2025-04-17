@@ -35,14 +35,14 @@ const Projects: React.FC = () => {
     {
       title: 'Disney Quiz Game',
       description: 'A collaborative team project creating an interactive Disney-themed quiz game. Built with TypeScript and SASS, the game features a timer to track completion time, a points system, and an engaging user interface. This project was developed using agile methodologies with Trello for project management, demonstrating effective team collaboration and modern development practices.',
-      image: '/portfolio/images/disney-quiz.png',
+      image: '/portfolio/images/Disney-quiz.png',
       demoLink: 'https://janisseibutis.github.io/Disney-quiz/',
       codeLink: 'https://github.com/JanisSeibutis/Disney-quiz'
     },
     {
       title: "Poseidon's Retreat",
       description: 'A collaborative Vue.js project developed in two phases. First, a design team created a responsive website design with consistent styling. Then, our development team implemented the design using Vue.js and TypeScript. This spa-themed website showcases modern front-end development practices, responsive design principles, and effective team collaboration across different project phases.',
-      image: '/portfolio/images/poseidons-retreat.jpg',
+      image: '/portfolio/images/Poseidons-retreat.png',
       demoLink: 'https://janisseibutis.github.io/Poseidons-retreat/',
       codeLink: 'https://github.com/JanisSeibutis/Poseidons-retreat'
     }
