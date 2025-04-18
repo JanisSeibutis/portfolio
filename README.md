@@ -1,6 +1,6 @@
 # Janis Seibutis - Frontend Developer Portfolio
 
-Welcome to my portfolio. I'm Janis Seibutis, a frontend developer currently studying in a two-year professional education program focused on frontend development and web design.
+Welcome to my portfolio. I'm Janis Seibutis, a frontend developer currently studying in a two-year Higher Vocational Education program focused on frontend development and web design.
 
 ## About Me
 
