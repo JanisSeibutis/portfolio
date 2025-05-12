@@ -1,6 +1,6 @@
 .skills {
   padding: 4rem 0;
-  background-color: var(--background-color);
+  background-color: #0C2340;
 }
 
 .skills h2 {
@@ -28,7 +28,7 @@
 }
 
 .skill-card {
-  background-color: var(--section-bg);
+  background-color: var(--background-color);
   padding: 1.5rem;
   border-radius: 0.5rem;
   text-align: center;
@@ -36,12 +36,15 @@
   transition: transform 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   color: var(--text-color);
+  border: 1px solid var(--text-color);
+  opacity: 1;
 }
 
 .skill-card.learning {
   background-color: var(--background-color);
   border: 1px solid var(--text-color);
-  opacity: 0.7;
+  opacity: 1;
+  color: var(--text-color);
 }
 
 .skill-card:hover {

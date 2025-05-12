@@ -51,6 +51,7 @@ const Projects: React.FC = () => {
   return (
     <section className="projects">
       <h2>Projects</h2>
+      <h3 className="projects-subtitle">(more advanced projects to come as i continue my education)</h3>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div key={index} className="project-card">
