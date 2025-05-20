@@ -3,7 +3,7 @@ import '../styles/Skills.css';
 
 const Skills: React.FC = () => {
   const skills = ['React', 'TypeScript', 'JavaScript', 'HTML/CSS', 'SCSS', 'Git', 'Figma', 'Agile/Scrum'];
-  const learningSkills = ['Node.js', 'Mysql', 'phpMyAdmin', 'Express', 'MongoDB', 'Vue', 'Angular'];
+  const learningSkills = ['Node.js', 'Mysql', 'phpMyAdmin', 'Express', 'MongoDB', 'Vue', 'Next.js'];
 
   return (
     <section className="skills">
