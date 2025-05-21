@@ -124,6 +124,34 @@
   background: rgba(255, 255, 255, 0.15);
 }
 
+.internship-dates {
+  display: flex;
+  gap: 2rem;
+  margin: 1.5rem 0;
+  justify-content: center;
+}
+
+.date-column {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  min-width: 250px;
+}
+
+.date-column h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.date-column p {
+  color: var(--text-color);
+  margin: 0;
+  font-size: 1.1rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .hero {
@@ -136,6 +164,15 @@
 
   .profile-image-container {
     margin: 1.5rem 0;
+  }
+
+  .internship-dates {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .date-column {
+    min-width: 200px;
   }
 }
 

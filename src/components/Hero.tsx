@@ -15,7 +15,17 @@ const Hero: React.FC = () => {
             className="profile-image"
           />
         </div>
-        <p>Currently i am a student at Medieinstitutet in Stockholm, Sweden</p>
+        <p>I'm currently looking for an internship. The internship is divided into two parts, with my final examination project in between.</p>
+        <div className="internship-dates">
+          <div className="date-column">
+            <h3>First Period</h3>
+            <p>October 13, 2025 – December 19, 2025</p>
+          </div>
+          <div className="date-column">
+            <h3>Second Period</h3>
+            <p>February 2, 2026 – May 22, 2026</p>
+          </div>
+        </div>
         <a 
           href="https://medieinstitutet.se/utbildningar/front-end-developer/" 
           target="_blank"
