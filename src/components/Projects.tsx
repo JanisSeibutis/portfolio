@@ -26,11 +26,11 @@ const Projects: React.FC = () => {
       codeLink: 'https://github.com/JanisSeibutis/fed24d-arbetsmetodik-inl-1-JanisSeibutis?tab=readme-ov-file'
     },
     {
-      title: 'FakeApi Webshop',
-      description: 'My first React project — a simple webshop built with modern web technologies. The project features client-side routing with TanStack Router, fetches and displays products from a fake API, and implements a clean webshop layout to simulate a real product listing experience. Built using Vite for fast development and React for the UI, this project demonstrates working with external APIs and modern React patterns.',
-      image: '/portfolio/images/FakeApi.jpg',
-      demoLink: 'https://janisseibutis.github.io/FakeApi-Webshop',
-      codeLink: 'https://github.com/JanisSeibutis/FakeApi-Webshop'
+      title: 'Jobsearch (Digi Design Taxonomy)',
+      description: 'This project is a group-built web application that leverages Arbetsförmedlingen’s open source Design System and the Taxonomy API to create a modern, accessible, and responsive platform for searching and viewing job ads. The application is inspired by Arbetsförmedlingen’s own job search tools but is designed with our own UX, colors, and layout choices — ensuring both functionality and originality while maintaining accessibility and consistency through the design system.',
+      image: '/portfolio/images/Jobsearch.jpg',
+      demoLink: 'https://janisseibutis.github.io/Digi-design-system-with-taxonomy-api/',
+      codeLink: 'https://github.com/JanisSeibutis/Digi-design-system-with-taxonomy-api'
     },
     {
       title: 'Disney Quiz Game',
