@@ -1,9 +1,29 @@
-import React from 'react';
-import '../styles/Skills.css';
+import React from "react";
+import "../styles/Skills.css";
 
 const Skills: React.FC = () => {
-  const skills = ['React', 'TypeScript', 'JavaScript', 'HTML/CSS', 'SCSS', 'Git', 'Figma', 'Agile/Scrum'];
-  const learningSkills = ['Node.js', 'Mysql', 'phpMyAdmin', 'Express', 'MongoDB', 'Vue', 'Next.js'];
+  const skills = [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "HTML/CSS",
+    "SCSS",
+    "Git",
+    "Agile/Scrum",
+    "Next.js",
+    "Shadcn",
+  ];
+  const learningSkills = [
+    "Node.js",
+    "Mysql",
+    "phpMyAdmin",
+    "Express",
+    "MongoDB",
+    "Vue",
+    "PostgreSQL",
+    "Supabase",
+    "Figma",
+  ];
 
   return (
     <section className="skills">
@@ -15,7 +35,7 @@ const Skills: React.FC = () => {
           </div>
         ))}
       </div>
-      
+
       <h3 className="learning-title">Have Touched</h3>
       <div className="skills-grid learning">
         {learningSkills.map((skill, index) => (
@@ -28,4 +48,4 @@ const Skills: React.FC = () => {
   );
 };
 
-export default Skills; 
+export default Skills;
