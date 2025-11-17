@@ -5,24 +5,28 @@ const Skills: React.FC = () => {
   const skills = [
     "React",
     "TypeScript",
-    "JavaScript",
-    "HTML/CSS",
-    "SCSS",
-    "Git",
-    "Agile/Scrum",
     "Next.js",
     "Shadcn",
+    "Tailwind",
+    "Vibe coding",
+    "Cursor",
+    "Git",
+    "Github",
+    "JavaScript",
+    "HTML/CSS",
+    "Agile/Scrum",
   ];
   const learningSkills = [
+    "PostgreSQL",
+    "Supabase",
     "Node.js",
     "Mysql",
     "phpMyAdmin",
     "Express",
     "MongoDB",
     "Vue",
-    "PostgreSQL",
-    "Supabase",
     "Figma",
+    "SCSS",
   ];
 
   return (
