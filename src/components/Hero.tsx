@@ -2,16 +2,16 @@ import React from 'react';
 import '../styles/Hero.css';
 
 const Hero: React.FC = () => {
-  const scrollToNext = () => {
-    const aboutSection = document.querySelector('.about');
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section className="hero">
       <div className="hero-content">
+        <div className="profile-image-container">
+          <img 
+            src="/portfolio/images/portrait-2-portfolio.png" 
+            alt="Profile" 
+            className="profile-image"
+          />
+        </div>
         <div className="hero-left-content">
           <div className="hero-header">
             <h1>Hi, I'm Janis Seibutis</h1>
@@ -50,16 +50,6 @@ const Hero: React.FC = () => {
           </a>
           </div>
         </div>
-        <div className="profile-image-container">
-          <img 
-            src="/portfolio/images/profile.jpeg" 
-            alt="Profile" 
-            className="profile-image"
-          />
-        </div>
-      </div>
-      <div className="scroll-indicator" onClick={scrollToNext}>
-        <div className="scroll-arrow"></div>
       </div>
     </section>
   );
