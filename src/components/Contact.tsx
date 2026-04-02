@@ -4,9 +4,9 @@ import '../styles/Contact.css';
 const Contact: React.FC = () => {
   return (
     <section className="contact">
-      <h2>Let's Connect</h2>
+      <h2>Kontakt</h2>
       <div className="contact-content">
-        <p>I'm currently looking for new opportunities!</p>
+        <p>Jag söker just nu nya möjligheter!</p>
         <div className="social-links">
           <a 
             href="https://github.com/JanisSeibutis" 
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
-        <a href="mailto:Janis.Seibutis@medieinstitutet.se" className="contact-button">Say Hello</a>
+        <a href="mailto:Janis.Seibutis@medieinstitutet.se" className="contact-button">Hör av dig</a>
       </div>
     </section>
   );

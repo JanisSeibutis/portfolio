@@ -10,11 +10,19 @@ interface Project {
 }
 
 const Projects: React.FC = () => {
+  const featuredProject: Project = {
+    title: "FirmaLokalt",
+    description:
+      "FirmaLokalt är en plattform som kopplar samman privatpersoner med lokala tjänsteföretag inom bland annat bygg, städning, flytt och IT. Användare kan snabbt skicka in en strukturerad förfrågan, matchas med relevanta företag och få svar på ett och samma ställe – vilket gör det enkelt att jämföra och välja rätt aktör. Plattformen innehåller även adminverktyg för att hantera organisationer och leads. Projektet är utvecklat helt självständigt av mig. Den är byggd med Next.js och TypeScript i frontend, Supabase (PostgreSQL, Auth, Edge Functions) i backend, samt Stripe för betalningar, Resend för e-post och Vercel för hosting.",
+    image: "/portfolio/images/Firmalokalt.jpg",
+    demoLink: "https://firmalokalt.se/",
+  };
+
   const projects: Project[] = [
     {
       title: "Jobsearch (Digi Design Taxonomy)",
       description:
-        "This project is a group-built web application that leverages Arbetsförmedlingen's open source Design System and the Taxonomy API to create a modern, accessible, and responsive platform for searching and viewing job ads. The application is inspired by Arbetsförmedlingen's own job search tools but is designed with our own UX, colors, and layout choices — ensuring both functionality and originality while maintaining accessibility and consistency through the design system.",
+        "Ett grupprojekt där vi byggde en modern, tillgänglig och responsiv plattform för att söka och visa jobbannonser. Lösningen använder Arbetsförmedlingens designsystem och Taxonomy API, med egen UX och layout. Jag ansvarade för implementationen av sökfunktionaliteten samt integrationen mot API:erna.",
       image: "/portfolio/images/Jobsearch.jpg",
       demoLink:
         "https://janisseibutis.github.io/Digi-design-system-with-taxonomy-api/",
@@ -24,7 +32,7 @@ const Projects: React.FC = () => {
     {
       title: "Donut Shop",
       description:
-        "This is a fictional webshop selling donuts, built as a school project with specific functional requirements. Users can browse and select products to add to their shopping cart. From the cart, users can proceed to checkout where they'll find an order summary and a form for order and user details. The site is built with vanilla JavaScript and some simple helper tools, with extra attention given to accessibility aspects and form validation with regex.",
+        "En fiktiv webbshop byggd i vanilla JavaScript. Besökare kan lägga produkter i varukorgen och gå vidare till checkout med ordersammanfattning och formulär. Fokus lades på tillgänglighet och validering med regex.",
       image: "/portfolio/images/gottfrids-main-page.jpg",
       demoLink: "https://janisseibutis.github.io/Gottfrids-Munkar-webbshop/",
       codeLink:
@@ -33,7 +41,7 @@ const Projects: React.FC = () => {
     {
       title: "Swedish Radio Podcasts",
       description:
-        'A simple site that displays humor podcasts from Swedish Radio using the Fetch API. Data is fetched either from an external API or localStorage if in development mode. The site includes a feature flag to simulate fetch errors for testing purposes. Users can click "Lyssna här" to listen to podcasts on Swedish Radio\'s platform. This project was a code refactoring assignment where I improved a messy, non-functional codebase by converting it to TypeScript, restructuring the code, and making it more maintainable and readable.',
+        "En enklare webbplats som visar humorpoddar från Sveriges Radio med Fetch API. Detta var en refaktorering där jag byggde om en rörig kodbas till TypeScript, strukturerade upp koden och gjorde den mer läsbar och hållbar.",
       image: "/portfolio/images/light-mode.jpg",
       demoLink:
         "https://janisseibutis.github.io/fed24d-arbetsmetodik-inl-1-JanisSeibutis/",
@@ -43,7 +51,7 @@ const Projects: React.FC = () => {
     {
       title: "Disney Quiz Game",
       description:
-        "A collaborative team project creating an interactive Disney-themed quiz game. Built with TypeScript and SASS, the game features a timer to track completion time, a points system, and an engaging user interface. This project was developed using agile methodologies with Trello for project management, demonstrating effective team collaboration and modern development practices.",
+        "Ett teamprojekt där vi skapade ett interaktivt Disney-quiz med TypeScript och SASS. Spelet innehåller timer, poängsystem och ett engagerande gränssnitt. Arbetet genomfördes agilt med Trello.",
       image: "/portfolio/images/Disney-quiz.png",
       demoLink: "https://janisseibutis.github.io/Disney-quiz/",
       codeLink: "https://github.com/JanisSeibutis/Disney-quiz",
@@ -51,7 +59,7 @@ const Projects: React.FC = () => {
     {
       title: "Poseidon's Retreat",
       description:
-        "A collaborative Vue.js project developed in two phases. First, a design team created a responsive website design with consistent styling. Then, our development team implemented the design using Vue.js and TypeScript. This spa-themed website showcases modern front-end development practices, responsive design principles, and effective team collaboration across different project phases.",
+        "Ett samarbetsprojekt i Vue.js och TypeScript som genomfördes i två faser: design och implementation. Resultatet blev en responsiv spa-webbplats med fokus på moderna arbetssätt inom frontend.",
       image: "/portfolio/images/Poseidons-retreat.png",
       demoLink: "https://janisseibutis.github.io/Poseidons-retreat/",
       codeLink: "https://github.com/JanisSeibutis/Poseidons-retreat",
@@ -60,13 +68,39 @@ const Projects: React.FC = () => {
 
   return (
     <section className="projects">
-      <h2>Projects</h2>
-      <h3 className="projects-subtitle">
-        (more advanced projects to come as i continue my education)
-      </h3>
+      <h2>Projekt</h2>
+      <h3 className="projects-subtitle">Utvalda arbeten och skolprojekt</h3>
+
+      <div className="featured-project">
+        <h3 className="section-title">Huvudprojekt</h3>
+        <div className="project-card featured-card">
+          <div className="project-image-container">
+            <img
+              src={featuredProject.image}
+              alt={featuredProject.title}
+              className="project-image"
+            />
+          </div>
+          <h3>{featuredProject.title}</h3>
+          <p>{featuredProject.description}</p>
+          <div className="project-links">
+            {featuredProject.demoLink && (
+              <a
+                href={featuredProject.demoLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Besök webbplats
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <h3 className="section-title">Fler projekt</h3>
       <div className="projects-grid">
         {projects.map((project, index) => (
-          <div key={index} className="project-card">
+          <div key={index} className="project-card secondary-card">
             <div className="project-image-container">
               <img
                 src={project.image}
@@ -83,7 +117,7 @@ const Projects: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Live Demo
+                  Visa demo
                 </a>
               )}
               {project.codeLink && (
@@ -92,7 +126,7 @@ const Projects: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Source Code
+                  Källkod
                 </a>
               )}
             </div>

@@ -233,7 +233,7 @@
 }
 
 .scroll-indicator::after {
-  content: 'More about me';
+  content: 'Mer om mig';
   color: var(--primary-color);
   font-size: 1.125rem;
   font-weight: 500;

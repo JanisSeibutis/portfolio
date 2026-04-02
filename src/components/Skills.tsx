@@ -6,19 +6,19 @@ const Skills: React.FC = () => {
     "React",
     "TypeScript",
     "Next.js",
+    "Supabase",
     "Shadcn",
     "Tailwind",
-    "Vibe coding",
+    "Vibe-kodning",
     "Cursor",
     "Git",
-    "Github",
+    "GitHub",
     "JavaScript",
     "HTML/CSS",
     "Agile/Scrum",
   ];
   const learningSkills = [
     "PostgreSQL",
-    "Supabase",
     "Node.js",
     "Mysql",
     "phpMyAdmin",
@@ -31,7 +31,7 @@ const Skills: React.FC = () => {
 
   return (
     <section className="skills">
-      <h2>Skills and Tools</h2>
+      <h2>Kunskaper och verktyg</h2>
       <div className="skills-grid">
         {skills.map((skill, index) => (
           <div key={index} className="skill-card">
@@ -40,7 +40,7 @@ const Skills: React.FC = () => {
         ))}
       </div>
 
-      <h3 className="learning-title">Have Touched</h3>
+      <h3 className="learning-title">Har arbetat med</h3>
       <div className="skills-grid learning">
         {learningSkills.map((skill, index) => (
           <div key={index} className="skill-card learning">
