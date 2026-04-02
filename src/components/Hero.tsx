@@ -14,21 +14,11 @@ const Hero: React.FC = () => {
         </div>
         <div className="hero-left-content">
           <div className="hero-header">
-            <h1>Hi, I'm Janis Seibutis</h1>
-            <h2>Upcoming Web Developer</h2>
+            <h1>Hej, jag heter Janis Seibutis</h1>
+            <h2>Junior Webbutvecklare</h2>
           </div>
           <div className="hero-text-content">
-          <p>I'm currently looking for an internship. The internship is divided into two parts, with my final examination project in between.</p>
-          <div className="internship-dates">
-            <div className="date-column">
-              <h3>First Period</h3>
-              <p>October 13, 2025 – December 19, 2025</p>
-            </div>
-            <div className="date-column">
-              <h3>Second Period</h3>
-              <p>February 2, 2026 – May 22, 2026</p>
-            </div>
-          </div>
+          <p>Jag söker just nu jobb som junior webbutvecklare och tar snart examen från Medieinstitutet. Jag har även en praktikperiod kvar fram till den 22 maj 2026 och är öppen för att göra resterande del av min praktik hos en potentiell arbetsgivare.</p>
           <a 
             href="https://medieinstitutet.se/utbildningar/front-end-developer/" 
             target="_blank"
@@ -46,7 +36,7 @@ const Hero: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            View CV
+            Visa CV
           </a>
           </div>
         </div>

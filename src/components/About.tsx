@@ -4,14 +4,24 @@ import '../styles/About.css';
 const About: React.FC = () => {
   return (
     <section className="about">
-      <h2>About Me</h2>
+      <h2>Om mig</h2>
       <div className="about-content">
-      <p>Currently i am a student at Medieinstitutet in Stockholm, Sweden. I am studying frontend development, a 2 year long Higher Vocational Education program that teaches the basics of frontend development and web design. 
-        Most of the second year is spent as an intern at a company, where I get to learn and apply my skills in a real-world environment.
-        I am driven by a constant desire to 
-        learn more and to apply new technologies and methods to solve problems. As an intern, I look forward to learning from your expertise while contributing 
-        with my enthusiasm and dedication.
-        In my spare time i go to the gym, ride my motorcycle, go fishing and spend time with my friends and family. 
+        <p>
+          Jag tar snart examen från Medieinstitutet i Stockholm, där jag har gått en tvåårig
+          yrkeshögskoleutbildning inom frontendutveckling. Utbildningen har gett mig en stabil grund
+          inom modern webbutveckling och design, samt praktisk erfarenhet av att arbeta i verkliga
+          projektmiljöer.
+        </p>
+        <p>
+          Jag söker nu en roll som junior webbutvecklare där jag kan fortsätta utvecklas och samtidigt
+          bidra med mina kunskaper och min problemlösningsförmåga. Jag har ett stort intresse för att
+          arbeta med AI-verktyg och fokuserar på att använda dem så effektivt som möjligt för att
+          förbättra arbetsflöden, öka produktivitet och skapa smartare lösningar.
+        </p>
+        <p>
+          Jag drivs av att ständigt lära mig nya saker och tycker om att utforska nya tekniker och
+          arbetssätt för att skapa användarvänliga och effektiva digitala upplevelser. På fritiden
+          tränar jag, kör motorcykel, fiskar och umgås med vänner och familj.
         </p>
       </div>
     </section>

@@ -20,4 +20,11 @@
   font-size: 1.2rem;
   line-height: 1.8;
   color: var(--text-color);
-} 
+}
+
+@media (min-width: 1024px) {
+  .about-content {
+    max-width: 1000px;
+    text-align: start;
+  }
+}
