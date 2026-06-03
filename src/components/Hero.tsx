@@ -19,10 +19,10 @@ const Hero: React.FC = () => {
           </div>
           <div className="hero-text-content">
             <p>
-              Jag söker just nu jobb som junior webbutvecklare och tar snart
-              examen från Medieinstitutet. Jag har en praktikperiod kvar fram
-              till den 22 maj 2026 och är öppen för att göra resterande del av
-              min praktik hos en potentiell arbetsgivare.
+              Nyexaminerad frontendutvecklare som söker jobb som junior
+              webbutvecklare. Jag bygger moderna, responsiva och användarvänliga
+              webbapplikationer med fokus på frontend, problemlösning och smart
+              användning av AI-verktyg.
             </p>
             <a
               href="https://medieinstitutet.se/utbildningar/front-end-developer/"
